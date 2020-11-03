@@ -47,7 +47,16 @@ p { 		font-size:90%; margin: 0 0 .5rem 0;  }
 .triptych:last-child {
     margin:0 0 0 0;
 }
-
+header {
+  background-image: url(../img/wood-texture.jpg);
+  background-size:cover;
+}
+.fa-phone {
+  padding-right: .25rem;
+}
+.fa-envelope-open-text {
+  padding-right: .25rem;
+}
 /* media query 1: define styles that should only kick in if screen is above 561 pixels wide... */
 @media screen and (min-width:561px) {
 	html { font-size:105%; }
